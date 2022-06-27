@@ -65,36 +65,33 @@ var array=[
     console.log(i.name,)
   }
   //Create Your Own Resume data in JSON Format
-  {
-    "basics"= {
+myResume=[{
+    "basics": {
       "name": "Ishwarya",
       "label": "",
       "picture": "",
       "email": "ishwaryabaskaran1012@gmail.com",
       "phone": "1234567890",
       "degree": "B.E Electronics and Communication",
-     
+     },
       "location": {
         "address": "Your street address or mailing address",
         "postalCode": "625 221",
         "city": "Madurai",
         "country": "India",
         "state": "Tamil Nadu"
-      },
+      
      
     },
-    "work"= [
-      {
+    "work": {
         "company": "zealeye.ai",
         "position": "R&D team",
         "website": "URL for the employer's website",
         
         
-      }
-    ],
+      },
    
-    "education"=[
-      {
+    "education":{
         "school": "govt.higher secondray school",
         "area": "T.Ayyan kottai",
        "10th persentage":"80%",
@@ -103,37 +100,27 @@ var array=[
        "city":"chennai",
        "persentage":"75%",
         
-      }
-    ],
-    "awards"=[
-      {
+      },
+    "awards":{
         "title": "sports day",
         "awarder": "best highjump player",
        
-      }
-    ],
+      },
    
-    "skills"= [
-      {
+    "skills": {
         "name": "Programming Languages",
         "level": "beginner",
-        "keywords": [
-          " 'JavaScript', 'HTML', 'CSS')"
-        ]
-      }
-    ],
-    "languages"= [
-      {
+        "keywords":  "( 'JavaScript', 'HTML', 'CSS')"
+        
+      },
+    "languages": {
         "language": "Tamil,English,Spanish",
         "fluency": "Tamil"
-      }
-    ],
-    "interests"= [
-      {
+      },
+    "interests": {
         "name": "Sports",
-        "keywords": [
-          " 'Cricket', 'Football', 'handball', 'kabaddi')"
-        ]
+        "keywords": "('Cricket', 'Football', 'handball', 'kabaddi')"
+        
       }
-    ]
-  }
+    }]
+  
